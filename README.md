@@ -28,7 +28,7 @@ configure the database.php file
 ## Please change the value of 'Security.salt' or 'Security.cipherSeed' (Error)
 Edit the file inside workspace/cakephp/app/config/core.php
 ```
-	Configure::write('Security.salt', 'DYhG93b0qyJfIxfs2guVoUubWwvniR2G0FgaC9mi'); // replace this string with a random string
+    Configure::write('Security.salt', 'DYhG93b0qyJfIxfs2guVoUubWwvniR2G0FgaC9mi'); // replace this string with a random string
 
-	Configure::write('Security.cipherSeed', '76859309657453542496749683645'); // replace this numbers with a random numeric (digits only)
+    Configure::write('Security.cipherSeed', '76859309657453542496749683645'); // replace this numbers with a random numeric (digits only)
 ```
